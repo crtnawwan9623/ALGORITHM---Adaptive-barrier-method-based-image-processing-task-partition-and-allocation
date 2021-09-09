@@ -10,18 +10,19 @@ This is a novel adaptive barrier algorithm to solve non-convex and non-linear op
  
 <div align=center><img width="381" alt="Screen Shot 2021-09-09 at 9 08 20 AM" src="https://user-images.githubusercontent.com/37515653/132691595-a39ffd44-bda8-4b14-ac24-867793297ad1.png">
   
-<div align=left>Optimization problem:
+<div align=left>Original Optimization problem:
  
-<div align=center><img width="273" alt="Screen Shot 2021-09-08 at 4 40 20 PM" src="https://user-images.githubusercontent.com/37515653/132582307-159b3df6-adcb-430c-bdb2-b5e7866b0a51.png">
+<div align=center><img width="403" alt="Screen Shot 2021-09-09 at 10 21 19 AM" src="https://user-images.githubusercontent.com/37515653/132703567-f519881a-3563-4e8a-99bb-8b2ca4d2c453.png">
+ 
+<div align=left>Optimization problem with inequity constraints eliminated:
+ 
+<div align=center><img width="393" alt="Screen Shot 2021-09-09 at 10 25 24 AM" src="https://user-images.githubusercontent.com/37515653/132704226-b4e4738a-64c5-48ea-9b3e-b65a1de9de60.png">
 
-<div align=left>Algorithm:
+<div align=left>Algorithm of adaptive barrier method based on Adadelta gradient descent:
  
-<div align=center><img width="399" alt="Screen Shot 2021-09-08 at 4 46 05 PM" src="https://user-images.githubusercontent.com/37515653/132583158-22bc9eb3-5a2c-4e41-a5e9-32b8da484c90.png">
+<div align=center><img width="415" alt="Screen Shot 2021-09-09 at 10 26 19 AM" src="https://user-images.githubusercontent.com/37515653/132704378-5d5f6c8b-dab5-4463-9981-e189891b1f9a.png">
 
-<div align=left>Illustration of 'exchange' and 'transfer' operations:
- 
-<div align=center><img width="782" alt="Screen Shot 2021-09-08 at 4 48 27 PM" src="https://user-images.githubusercontent.com/37515653/132583384-c77900d6-9d5c-4673-b7ee-74060058c359.png">
 
  <div align=left>Algorithm performance:
  
-<div align=center><img width="721" alt="Screen Shot 2021-09-08 at 4 56 20 PM" src="https://user-images.githubusercontent.com/37515653/132584361-7348f0e2-cd82-4acb-8744-c303ab47a662.png">
+<div align=center><img width="776" alt="Screen Shot 2021-09-09 at 10 29 12 AM" src="https://user-images.githubusercontent.com/37515653/132704843-b061dfa9-3857-4683-9a05-274aeba9cdac.png">
